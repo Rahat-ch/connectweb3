@@ -1,11 +1,10 @@
 {
-  "name": "connectyourwallet",
+  "name": "connectweb3",
   "version": "0.0.1",
   "description": "Connect Your Wallet to the EVM",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [ "dist" ],
-  "type": "module",
   "scripts": {
     "build": "rollup -c"
   },
@@ -22,5 +21,8 @@
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-terser": "^7.0.2",
     "typescript": "^5.1.6"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
   }
 }
